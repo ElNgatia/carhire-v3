@@ -165,10 +165,17 @@
         + "Message: " + message;
 
       window.open(url, '_blank').focus();
+
+
+
+
     }
 
-
+    if (window.history.replaceState) {
+      window.history.replaceState(null, null, window.location.href);
+    }
   </script>
+
 
 
   <footer>
