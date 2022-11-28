@@ -990,7 +990,11 @@ footer .inner-content p a {
 .section .section-heading {
 	margin-bottom: 45px;
 }
-
+#the-count {
+	float: right;
+	padding: 0.1rem 0 0 0;
+	font-size: 0.875rem;
+  }
 
 /* Responsive Style */
 @media (max-width: 768px) {
